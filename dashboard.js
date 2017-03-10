@@ -193,10 +193,8 @@ console.log(data);
 // 10. Make each word in the table capitalized.
 
 //how he did it in class:
-var tableText = document.querySelector('table').classList.add('text-capitalize');
-console.log(tableText);
+var tableText = document.querySelector('.table').classList.add('text-capitalize');
+// console.log(tableText);
 //this is the same as saying: 
 // document.querySelector('.table').style.textTransform = 'capitalize';
 //could also loop through every table cell and replace things to capitlize things. you would have actually inspected it and it would actually capitalize it instead of just styling it to be capitalized.
-
-
